@@ -1,3 +1,6 @@
+from queue import ListQueue
+from stack import ListStack
+
 # The graph
 
 graph_adjacency_list = {
@@ -9,4 +12,3 @@ graph_adjacency_list = {
     "F": ["E", "H"],
     "G": ["D"]
 }
-
